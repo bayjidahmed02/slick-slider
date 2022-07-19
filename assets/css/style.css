@@ -62,3 +62,32 @@ img {
 .slider:hover .right-arrow {
   display: block;
 }
+.slick-dots {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+  border-radius: 50%;
+  color: red;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 260px;
+  transform: translate(-50%, -50%);
+}
+.slick-dots li button {
+  width: 15px;
+  height: 15px;
+  color: transparent;
+  border: 2px solid white;
+  border-radius: 50%;
+  background: none;
+  display: none;
+}
+.slider:hover .slick-dots li button {
+  display: block;
+}
+.slick-dots li.slick-active button {
+  background: white;
+}
