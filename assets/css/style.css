@@ -13,22 +13,6 @@ img {
   position: absolute;
   background: rgba(0, 0, 0, 0.6);
 }
-/* .arrow {
-  display: flex;
-  justify-content: space-between;
-  font-size: 20px;
-  position: absolute;
-  bottom: 50%;
-  padding: 0 40px;
-  transform: translateY(50%);
-}
-.left,
-.right {
-  background: yellow;
-  padding: 10px;
-  border-radius: 50%;
-  cursor: pointer;
-} */
 .slider {
   position: relative;
 }
@@ -41,7 +25,6 @@ img {
   cursor: pointer;
   position: absolute;
   z-index: 100;
-  display: none;
 }
 .left-arrow {
   left: 0;
@@ -55,13 +38,6 @@ img {
   margin-right: 40px;
   transform: translateY(-50%);
 }
-
-.slider:hover .left-arrow {
-  display: block;
-}
-.slider:hover .right-arrow {
-  display: block;
-}
 .slick-dots {
   list-style: none;
   display: flex;
@@ -73,7 +49,7 @@ img {
   position: absolute;
   left: 50%;
   right: 50%;
-  top: 260px;
+  top: 90%;
   transform: translate(-50%, -50%);
 }
 .slick-dots li button {
@@ -83,10 +59,6 @@ img {
   border: 2px solid white;
   border-radius: 50%;
   background: none;
-  display: none;
-}
-.slider:hover .slick-dots li button {
-  display: block;
 }
 .slick-dots li.slick-active button {
   background: white;
